@@ -1,10 +1,13 @@
 import React from 'react';
+import Begin from "./Begin/Begin";
+import Possibility from "./Possibility/Possibility";
 
 const Home = () => {
     return (
-        <div>
-            
-        </div>
+        <main>
+            <Begin/>
+            <Possibility/>
+        </main>
     );
 };
 
